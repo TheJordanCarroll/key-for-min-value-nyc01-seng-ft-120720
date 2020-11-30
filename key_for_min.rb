@@ -4,29 +4,10 @@
 def key_for_min_value(name_hash)
   min_value = ""
 hash.each do |name, value|
-  if 
+  if #i don't know what to put here
     min_value = name
   end
 end
 
 min_value
-end
-
-# passengers = {
-# suite_a: "Amanda Presley", 
-# suite_b: "Seymour Hoffman", 
-# suite_c: "Alfred Tennyson", 
-# suite_d: "Charlie Chaplin", 
-# suite_e: "Crumpet the Elf"
-# }
-
-def select_winner(passengers)
-  winner = ""
-passengers.each do |suite, name|
-  if suite == :suite_a && name.start_with?("A")
-    winner = name
-  end
-end
- 
-winner
 end
