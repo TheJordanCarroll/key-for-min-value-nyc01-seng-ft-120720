@@ -13,8 +13,3 @@ end
 min_value
 end
 
-i=0
-for blah in blahs
-    puts i.to_s + " " + blah
-    i+=1
-end
