@@ -7,7 +7,7 @@ hash.each do |name, value|
   if value.min
     value = min_value
   end
-    min_value = name
+    lowest_ = name
   end
 end
 
